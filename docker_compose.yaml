@@ -1,0 +1,14 @@
+version: "3"
+services:
+  rest-tid:
+    image: "quarkus/rest-tid"
+    ports:
+      - "5050:5050"
+  rest-emp:
+    links:
+      - rest-tid
+    image: "quarkus/rest-emp"
+    ports:
+      - "5051:5051"
+    environment:
+      - TIDPROXY_MP_REST_URI=http://rest-tid:5050

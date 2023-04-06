@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/MSPOC.iml" filepath="$PROJECT_DIR$/.idea/MSPOC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-emp/rest-emp.iml" filepath="$PROJECT_DIR$/rest-emp/rest-emp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-tid/rest-tid.iml" filepath="$PROJECT_DIR$/rest-tid/rest-tid.iml" />
+    </modules>
+  </component>
+</project>
